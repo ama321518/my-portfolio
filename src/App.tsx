@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import VSCodeEditor from './VSCodeEditor';
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
         gap: '20px'
       }}>
         <h1 style={{ color: 'white', fontFamily: 'Arial', fontSize: '48px', margin: 0 }}>
-          hi, i'm ama 🩷
+          hi, i'm Ama 🩷
         </h1>
         <p style={{ color: 'white', fontFamily: 'Arial', fontSize: '20px', margin: 0 }}>
-          cs student @ calvin university • aspiring software engineer
+          CS student @ Calvin University • aspiring software engineer
         </p>
         <button style={{
           backgroundColor: 'white',
@@ -31,6 +32,9 @@ function App() {
         }}>
           view my work
         </button>
+      </div>
+      <div style={{ backgroundColor: '#f9f9f9', paddingBottom: '60px' }}>
+        <VSCodeEditor />
       </div>
     </div>
   );
