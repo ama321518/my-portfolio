@@ -1,5 +1,7 @@
 import Navbar from './Navbar';
 import VSCodeEditor from './VSCodeEditor';
+import Projects from './Projects';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
       <div style={{ backgroundColor: '#f9f9f9', paddingBottom: '60px' }}>
         <VSCodeEditor />
       </div>
+      <Projects />
+          <Footer />
+
     </div>
   );
 }
