@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import VSCodeEditor from './VSCodeEditor';
 import Projects from './Projects';
 import Footer from './Footer';
+import { TypeAnimation } from 'react-type-animation';
 
 function App() {
   return (
@@ -16,9 +17,17 @@ function App() {
         alignItems: 'center',
         gap: '20px'
       }}>
-        <h1 style={{ color: 'white', fontFamily: 'Arial', fontSize: '48px', margin: 0 }}>
-          hi, i'm Ama 🩷
-        </h1>
+        <TypeAnimation
+          sequence={[
+            "hi, i'm Ama 🩷", 2000,
+            "i'm a CS student", 2000,
+            "i'm an aspiring software engineer", 2000,
+            "i love building things 🩷", 2000,
+          ]}
+          speed={50}
+          repeat={Infinity}
+          style={{ color: 'white', fontSize: '48px', fontWeight: 'bold' }}
+/>
         <p style={{ color: 'white', fontFamily: 'Arial', fontSize: '20px', margin: 0 }}>
           CS student @ Calvin University • aspiring software engineer
         </p>
