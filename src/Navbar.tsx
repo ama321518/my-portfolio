@@ -7,7 +7,7 @@ const Navbar = () => {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      padding: '20px 40px',
+      padding: '16px 20px',
       backgroundColor: 'white',
     }}>
       <h1 style={{ color: '#20B2AA', fontFamily: 'Arial' }}>ama</h1>

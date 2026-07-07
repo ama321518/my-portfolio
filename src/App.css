@@ -4,3 +4,18 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  button {
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+  }
+}

@@ -8,7 +8,8 @@ const VSCodeEditor = () => {
       backgroundColor: '#1e1e1e',
       borderRadius: '10px',
       margin: '60px auto',
-      width: '80%',
+      width: '90%',
+      maxWidth: '900px',
       fontFamily: 'monospace',
       boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
     }}>
