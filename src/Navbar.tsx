@@ -18,7 +18,7 @@ const Navbar = () => {
         <a href="https://linkedin.com/in/yeboah-ama" target="_blank" rel="noreferrer">
           <FaLinkedin size={24} color="#20B2AA" />
         </a>
-        <a href="mailto:YOUR-EMAIL" >
+        <a href="mailto:apyeboah004@gmail.com" >
           <MdEmail size={24} color="#20B2AA" />
         </a>
       </div>
