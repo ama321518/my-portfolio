@@ -31,7 +31,9 @@ function App() {
         <p style={{ color: 'white', fontFamily: 'Arial', fontSize: '20px', margin: 0 }}>
           CS student @ Calvin University • aspiring software engineer
         </p>
-        <button style={{
+        <button 
+          onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+          style={{
           backgroundColor: 'white',
           color: '#20B2AA',
           border: 'none',
