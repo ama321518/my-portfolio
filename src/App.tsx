@@ -19,10 +19,10 @@ function App() {
       }}>
         <TypeAnimation
           sequence={[
-            "hi, i'm Ama 🩷", 2000,
-            "i'm a CS student", 2000,
-            "i'm an aspiring software engineer", 2000,
-            "i love building things 🩷", 2000,
+            "hi, i'm ama pokua🩷", 2000,
+            "i'm a cs student", 2000,
+            "i'm open to swe roles", 2000,
+            "i'm learning to build as i go 🩷", 2000,
           ]}
           speed={50}
           repeat={Infinity}
