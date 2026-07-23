@@ -46,7 +46,7 @@ function App() {
           view my work
         </button>
       </div>
-      <div style={{ backgroundColor: '#f9f9f9', paddingBottom: '60px' }}>
+      <div style={{ backgroundColor: '#fff9f0', paddingBottom: '60px' }}>
         <VSCodeEditor />
       </div>
       <Projects />
