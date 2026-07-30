@@ -63,10 +63,10 @@ const VSCodeEditor = () => {
               <p style={{ color: '#569cd6', margin: 0 }}>class <span style={{ color: '#4ec9b0' }}>Ama</span> extends <span style={{ color: '#4ec9b0' }}>Developer</span> {'{'}</p>
               <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '20px' }}>constructor() {'{'}</p>
               <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>name</span> = <span style={{ color: '#ce9178' }}>"Ama Yeboah"</span>;</p>
-              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>school</span> = <span style={{ color: '#ce9178' }}>"Calvin University"</span>;</p>
-              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>degree</span> = <span style={{ color: '#ce9178' }}>"Computer Science"</span>;</p>
-              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>interests</span> = <span style={{ color: '#ce9178' }}>"software engineering, AI, full stack"</span>;</p>
-              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>mood</span> = <span style={{ color: '#ce9178' }}>"always building something 🩷"</span>;</p>
+              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>school</span> = <span style={{ color: '#ce9178' }}>"calvin university"</span>;</p>
+              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>degree</span> = <span style={{ color: '#ce9178' }}>"computer science"</span>;</p>
+              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>interests</span> = <span style={{ color: '#ce9178' }}>"software engineering, AI, data science, project management,product management"</span>;</p>
+              <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '40px' }}>this.<span style={{ color: '#9cdcfe' }}>mood</span> = <span style={{ color: '#ce9178' }}>"always curious 🩷"</span>;</p>
               <p style={{ color: '#9cdcfe', margin: 0, paddingLeft: '20px' }}>{'}'}</p>
               <p style={{ color: '#569cd6', margin: 0 }}>{'}'}</p>
             </>

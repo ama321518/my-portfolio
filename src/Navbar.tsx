@@ -9,8 +9,9 @@ const Navbar = () => {
       alignItems: 'center',
       padding: '16px 20px',
       backgroundColor: 'white',
+      position: 'relative',
     }}>
-      <h1 style={{ color: '#20B2AA', fontFamily: 'Arial' }}>ama</h1>
+      <h1 style={{ color: '#20B2AA', position: 'absolute',left: '50%',transform: 'translateX(-50%)', fontFamily: 'Arial' }}>ama</h1>
       <div style={{ display: 'flex', gap: '20px' }}>
         <a href="https://github.com/ama321518" target="_blank" rel="noreferrer">
           <FaGithub size={24} color="#20B2AA" />
