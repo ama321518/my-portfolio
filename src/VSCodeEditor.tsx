@@ -74,10 +74,10 @@ const VSCodeEditor = () => {
           {activeTab === 'skills' && (
   <>
     <p style={{ color: '#569cd6', margin: 0 }}>const <span style={{ color: '#9cdcfe' }}>mySkills</span> = {'{'}</p>
-    <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"languages": <span style={{ color: '#d4d4d4' }}>["Python", "C++", "JavaScript", "Java", "SQL"],</span></p>
+    <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"languages": <span style={{ color: '#d4d4d4' }}>["Python", "C++", "JavaScript", "Java", "SQL","Clojure", "Ruby", "TypeScript"],</span></p>
     <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"frontend": <span style={{ color: '#d4d4d4' }}>["React.js", "HTML", "CSS"],</span></p>
     <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"ai_ml": <span style={{ color: '#d4d4d4' }}>["TensorFlow", "Scikit-learn", "Numpy", "Pandas"],</span></p>
-    <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"backend": <span style={{ color: '#d4d4d4' }}>["FastAPI", "RAG Pipelines", "LLMs"],</span></p>
+    <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"backend": <span style={{ color: '#d4d4d4' }}>["FastAPI", "RAG Pipelines", "LLMs", "Node.js", "REST APIs"],</span></p>
     <p style={{ color: '#ce9178', margin: 0, paddingLeft: '20px' }}>"tools": <span style={{ color: '#d4d4d4' }}>["Git", "GitHub", "Docker", "VS Code"],</span></p>
     <p style={{ color: '#569cd6', margin: 0 }}>{'}'}</p>
   </>
