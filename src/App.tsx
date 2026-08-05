@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import VSCodeEditor from './VSCodeEditor';
 import Projects from './Projects';
 import Footer from './Footer';
+import Experience from './Experience';
 import { TypeAnimation } from 'react-type-animation';
 
 function App() {
@@ -27,31 +28,31 @@ function App() {
           speed={50}
           repeat={Infinity}
           style={{ color: 'white', fontSize: '48px', fontWeight: 'bold' }}
-/>
+        />
         <p style={{ color: 'white', fontFamily: 'Arial', fontSize: '20px', margin: 0 }}>
           CS student @ Calvin University • aspiring software engineer
         </p>
         <button 
           onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
           style={{
-          backgroundColor: 'white',
-          color: '#20B2AA',
-          border: 'none',
-          padding: '12px 30px',
-          borderRadius: '25px',
-          fontSize: '16px',
-          cursor: 'pointer',
-          fontFamily: 'Arial'
-        }}>
+            backgroundColor: 'white',
+            color: '#20B2AA',
+            border: 'none',
+            padding: '12px 30px',
+            borderRadius: '25px',
+            fontSize: '16px',
+            cursor: 'pointer',
+            fontFamily: 'Arial'
+          }}>
           view my work
         </button>
       </div>
       <div style={{ backgroundColor: '#fff9f0', paddingBottom: '60px' }}>
         <VSCodeEditor />
       </div>
+      <Experience />
       <Projects />
-          <Footer />
-
+      <Footer />
     </div>
   );
 }
