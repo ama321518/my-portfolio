@@ -29,7 +29,7 @@ const Navbar = () => {
           <MdEmail size={24} color="#20B2AA" />
         </a>
       </div>
-      <a href="mailto:apyeboah004@gmail.com?subject=Resume Request&body=Hi Ama, I'd like to request your resume!">
+      <a href="https://drive.google.com/file/d/1hQkKpWRS0dEWaGXrPzUggvSVxoeNJZMJ/view?usp=sharing" target="_blank" rel="noreferrer">
         <button style={{
           backgroundColor: '#20B2AA',
           color: 'white',
@@ -40,7 +40,7 @@ const Navbar = () => {
           cursor: 'pointer',
           fontFamily: 'Poppins'
         }}>
-          request resume
+          view resume
         </button>
       </a>
     </nav>
